@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+}
+
+section .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+section .container .quote {
+    text-align: center;
+}
+
+section .container .quote h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    margin-block: 3.35rem;
+}
+
+section .container .quote p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.1875rem;
+    margin-block: 2.1875rem;
+}
+
+section .container .quote #btn {
+    color: #fff;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8333rem;
+    padding: .0625rem .375rem;
+    width: 15.625rem;
+    height: 5rem;
+}
+
+section .container .quote #btn:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
